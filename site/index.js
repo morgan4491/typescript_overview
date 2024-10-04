@@ -11,3 +11,5 @@ function getUserInput() {
     };
     return userData;
 }
+const data = getUserInput();
+console.log(data);
