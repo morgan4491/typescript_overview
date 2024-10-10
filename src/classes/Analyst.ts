@@ -1,4 +1,4 @@
-import Employee from "./Employee";
+import Employee from "./Employee.js";
 
 class Analyst extends Employee {
     certifications: String[];

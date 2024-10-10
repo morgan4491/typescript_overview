@@ -1,12 +1,9 @@
 // Package imports
-import inquirer from "inquirer";
 
 // File imports
-import Analyst from "./lib/Analyst";
-import Engineer from "./lib/Engineer";
-import App from "./lib/App";
+import App from "./classes/App.js";
 
-
+App.seedEmployees();
 App.showMainMenu();
 
 
